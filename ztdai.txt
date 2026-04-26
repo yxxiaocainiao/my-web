@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zontron Food Machinery</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+        body{color:#333;background:#f7f7f7}
+        header{background:#0f4c81;color:#fff;padding:16px 20px;position:sticky;top:0;z-index:99}
+        .container{max-width:1200px;margin:0 auto;padding:0 15px}
+        .logo{font-size:22px;font-weight:700}
+        nav{margin-top:8px}
+        nav ul{display:flex;gap:20px;list-style:none;flex-wrap:wrap}
+        nav a{color:#fff;text-decoration:none;font-weight:500}
+        nav a:hover{color:#ffc107}
+        .hero{background:#0f4c81;color:#fff;text-align:center;padding:60px 20px}
+        .hero h1{font-size:32px;margin-bottom:10px}
+        .section{padding:50px 0}
+        .section-title{text-align:center;font-size:26px;color:#0f4c81;margin-bottom:30px}
+        .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin-bottom:30px}
+        .card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+        .card img{width:100%;height:200px;object-fit:contain;background:#f1f1f1}
+        .card-body{padding:18px}
+        .card h3{color:#0f4c81;margin-bottom:8px;font-size:16px}
+        .card p{font-size:14px;line-height:1.5}
+        .contact{background:#0f4c81;color:#fff;text-align:center;padding:40px 0}
+        footer{background:#083863;color:#fff;text-align:center;padding:20px}
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">ZONTRON Food Machinery</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#tech">Advantages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>Professional Food Processing Machinery Manufacturer</h1>
+        <p>Efficient • Safe • Intelligent • Customized Solutions</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Company Profile</h3>
+                    <p>Zontron Food Machinery is a professional manufacturer integrating R&D, design, production, sales and service. We provide global food processing enterprises with efficient, safe and intelligent automated production line solutions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3>Core Team</h3>
+                    <p>Our team consists of senior engineers and food technology experts. We maintain long-term industry-university-research cooperation with top domestic universities and scientific research institutions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3>Mission & Vision</h3>
+                    <p>Mission: Empower the food processing industry, improve production efficiency, ensure food safety.</p>
+                    <p>Vision: To become a global leading provider of food processing solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="solutions" class="section" style="background:#eef5ff">
+    <div class="container">
+        <h2 class="section-title">One-Stop Food Processing Solutions</h2>
+        <div class="card">
+            <div class="card-body">
+                <h3>Potato Products Processing Solutions</h3>
+                <ul style="margin-left:20px;margin-top:10px">
+                    <li>Frozen French Fries Production Line</li>
+                    <li>Fresh-cut Potato Chips Production Line</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="products" class="section">
+    <div class="container">
+        <h2 class="section-title">Product Introduction</h2>
+        <div class="grid">
+
+            <div class="card">
+                <img src="Frozen French fries production line.png" alt="Frozen French fries production line">
+                <div class="card-body">
+                    <h3>Frozen French fries production line</h3>
+                    <p>Output 50-5000KG/H optional. Full line from lifting to packaging.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Fresh Cut Potato Chips Production Line.png" alt="Fresh Cut Potato Chips Production Line">
+                <div class="card-body">
+                    <h3>Fresh Cut Potato Chips Production Line</h3>
+                    <p>Complete line with cleaning, slicing, frying, packaging.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Continuous frying production line.png" alt="Continuous frying production line">
+                <div class="card-body">
+                    <h3>Continuous frying production line</h3>
+                    <p>For pasta, meat, nuts, seafood, snacks, etc.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="燃气加热油炸锅Gas heated deep ryer.png" alt="Gas heated deep fryer">
+                <div class="card-body">
+                    <h3>Gas heated deep fryer</h3>
+                    <p>High efficiency, energy-saving, safe.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="电加热油炸锅 Electric heated deep fryer.png" alt="Electric heated deep fryer">
+                <div class="card-body">
+                    <h3>Electric heated deep fryer</h3>
+                    <p>For restaurants, canteens, small factories.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="双缸脱水机.png" alt="Deoiler / dehydrator">
+                <div class="card-body">
+                    <h3>Centrifugal Deoiler / Dehydrator</h3>
+                    <p>Remove water & oil by centrifugal rotation.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="LTJIE利木.png" alt="Sizing and coating equipment">
+                <div class="card-body">
+                    <h3>Sizing and coating equipment</h3>
+                    <p>For meat, seafood, vegetables, nuts coating.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image20.jpeg" alt="Mesh belt dryer">
+                <div class="card-body">
+                    <h3>Mesh belt dryer</h3>
+                    <p>For vegetables, herbs, fruits drying.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image24.jpeg" alt="Drying Room/Industrial oven">
+                <div class="card-body">
+                    <h3>Drying Room / Industrial oven</h3>
+                    <p>Multi-stage temperature control, uniform heating.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image25.jpeg" alt="Sweet potato baking production line">
+                <div class="card-body">
+                    <h3>Sweet potato baking production line</h3>
+                    <p>Stainless steel, precise temperature control.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image26.jpeg" alt="Bagged pasteurization line">
+                <div class="card-body">
+                    <h3>Bagged pasteurization line</h3>
+                    <p>Low-temperature sterilization for food & beverage.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image28.png" alt="Vegetable washing production line">
+                <div class="card-body">
+                    <h3>Vegetable washing production line</h3>
+                    <p>For leafy & root vegetables cleaning.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image31.png" alt="Turnover/tray washing machine">
+                <div class="card-body">
+                    <h3>Turnover / tray washing machine</h3>
+                    <p>304 stainless steel, 360° cleaning nozzles.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image34.png" alt="Drum seasoning machine">
+                <div class="card-body">
+                    <h3>Drum seasoning machine</h3>
+                    <p>For food seasoning & powder coating.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image37.jpeg" alt="Strips cutting machine">
+                <div class="card-body">
+                    <h3>Strips cutting machine</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image39.jpeg" alt="Ginger cutting machine">
+                <div class="card-body">
+                    <h3>Ginger cutting machine</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tmp/748060463106_docxword_media_image42.jpeg" alt="Jacketed pan">
+                <div class="card-body">
+                    <h3>Jacketed pan</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="section" style="background:#eef5ff">
+    <div class="container">
+        <h2 class="section-title">Core Technical Advantages</h2>
+        <div class="grid">
+            <div class="card"><div class="card-body"><h3>Automation & Intelligence</h3><p>PLC Control, HMI touch screen, data traceability.</p></div></div>
+            <div class="card"><div class="card-body"><h3>Food-grade Material</h3><p>SUS 304 stainless steel, seamless design.</p></div></div>
+            <div class="card"><div class="card-body"><h3>Energy Saving</h3><p>Waste heat recovery, water recycling.</p></div></div>
+            <div class="card"><div class="card-body"><h3>Precise Control</h3><p>PID temperature control, stable process.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p style="margin:16px 0">We look forward to cooperating with you!</p>
+        <p>PHONE | E-MAIL | WHATSAPP</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Zontron Food Machinery. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
